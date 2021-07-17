@@ -10,19 +10,25 @@
     "cheerio": "^1.0.0-rc.3",
     "express": "^4.17.1",
     "request": "^2.88.2",
-    "html-to-text": "^8.0.0",
-    
+    "html-to-text": "^8.0.0"
   },
-  "engines": {
-    "node": "14.x"
+ "devDependencies": {},
+  "scripts": {
+    "test": "npm start",
+    "start": "node server.js"
   },
   "repository": {
-    "url": "https://glitch.com/edit/#!/hello-express"
+    "type": "git",
+    "url": "git+https://github.com/fdciabdul/ytdl-rest-api.git"
   },
-  "license": "MIT",
   "keywords": [
-    "node",
-    "glitch",
-    "express"
-  ]
+    "ytdl"
+  ],
+  "author": "abdul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fdciabdul/ytdl-rest-api/issues"
+  },
+  "homepage": "https://github.com/fdciabdul/ytdl-rest-api#readme"
 }
+
